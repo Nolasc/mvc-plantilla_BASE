@@ -1,0 +1,58 @@
+
+@font-face{
+font-family: "titol"; 
+src: url(http://localhost/proyecto_final/webroot/fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+font-family: "D-DIN"; 
+src: url(http://localhost/proyecto_final/webroot/fonts/D-DIN.otf);
+}
+
+@font-face {
+font-family: "DINbold"; 
+src: url(http://localhost/proyecto_final/webroot/fonts/D-DINCondensed-Bold.otf);
+}
+
+*{
+  font-family: D-DIN;
+}
+
+h1{
+	font-family: titol;
+  	display: block;
+  	font-size: 2.3em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+h2{
+	font-family: titol;
+  	font-size: 1.7em;
+    color: olive;
+  }
+h3{
+  	display: block;
+  	font-size: 1.4em;
+
+}
+h4 { 
+  	font-size: 1.2em;
+
+}
+h5{ 
+	font-family: DINbold;
+	font-size: 1.2em;
+}
+h6{ 
+	font-family: DINbold;
+	font-size: 0.9em;  
+}
+
+cite{
+  color: teal;
+}
+
+hr.punts{
+  border: 1px dotted gray;
+}
